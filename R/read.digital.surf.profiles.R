@@ -34,6 +34,8 @@ read.digital.surf.profiles<-function(pt,header.info)
   #print(header.info$num.bits.pt)
   point.byte.depth<-header.info$num.bits.pt/8
   #print(point.byte.depth)
+  
+  #Assumes z units (height.inc) are millimeters IMPROVE!
   surface3<-readBin(pt, what=integer(), size = point.byte.depth, n = ((header.info$num.pts.line)*(header.info$num.lines)), signed = TRUE, endian = "little")
   surface3<-(1000 * header.info$z.inc * t(matrix(surface3, ncol=header.info$num.lines, nrow=header.info$num.pts.line)))
   
