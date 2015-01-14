@@ -1,7 +1,23 @@
-#-----------------------------------------------------
-#Read an x3p file
-#Unzips file to tempdir(). 
-#-----------------------------------------------------
+#--------------------------------------------
+#' @title Read an x3p file
+#'
+#' @description Read an x3p file
+#' 
+#' @details Unzips file to tempdir(). 
+#'
+#' @param fpath
+#' 
+#' @return an array
+#' 
+#' @references http://open-gps.sourceforge.net/
+#'
+#' @examples
+#' Coming soon.
+#'
+#' \dontrun{
+#'  
+#' }
+#--------------------------------------------
 read.x3p<-function(fpath){
   
   unzip(fpath, exdir=tempdir())

@@ -1,7 +1,26 @@
-#-------------------------------------------------------------------
-#Read in the profiles once the header info is known
-#Fastest version
-#-------------------------------------------------------------------
+#--------------------------------------------
+#' @title Read in the profiles once the header info is known
+#' Fastest version
+#'
+#' @description Read in the profiles once the header info is known
+#' Fastest version
+#' 
+#' @details none.
+#'
+#' @param pt
+#' @param header.info
+#' 
+#' @return not sure.
+#' 
+#' @references http://open-gps.sourceforge.net/
+#'
+#' @examples
+#' Coming soon.
+#'
+#' \dontrun{
+#'  
+#' }
+#--------------------------------------------
 read.digital.surf.profiles<-function(pt,header.info)
 {
   

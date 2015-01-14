@@ -1,7 +1,24 @@
-#-----------------------------------------------------
-#Format (most) x3p header file info into a nice
-#read-able format
-#-----------------------------------------------------
+#--------------------------------------------
+#' @title Format (most) x3p header file info into a nice
+#' read-able format
+#' @description Format (most) x3p header file info into a nice
+#' read-able format
+#' 
+#' @details none. 
+#'
+#' @param main.xml.info
+#' 
+#' @return a string.
+#' 
+#' @references http://open-gps.sourceforge.net/
+#'
+#' @examples
+#' Coming soon.
+#'
+#' \dontrun{
+#'  
+#' }
+#--------------------------------------------
 print.x3p.file.info<-function(main.xml.info){
   
   print("------X3P File Meta Data------")

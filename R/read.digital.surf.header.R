@@ -1,11 +1,26 @@
-#-------------------------------------------------------------------
-#pt = pointer returned by calling file on a digital surf .sur or 
-#.pro binary format file
-#
-#**SEE FORMATS SECTION OF HELP IN MOUNTAINS SOFTWARE FOR 
-#INFORMATION ON THE .sur and .pro formats
-#
-#-------------------------------------------------------------------
+#--------------------------------------------
+#' @title pt = pointer returned by calling file on a digital surf .sur or 
+#' .pro binary format file
+#'
+#' @description pt = pointer returned by calling file on a digital surf .sur or 
+#' .pro binary format file
+#' 
+#' @details **SEE FORMATS SECTION OF HELP IN MOUNTAINS SOFTWARE FOR 
+#' INFORMATION ON THE .sur and .pro formats 
+#'
+#' @param pt
+#' 
+#' @return a vector.
+#' 
+#' @references http://open-gps.sourceforge.net/
+#'
+#' @examples
+#' Coming soon.
+#'
+#' \dontrun{
+#'  
+#' }
+#--------------------------------------------
 read.digital.surf.header<-function(pt)
 {
 

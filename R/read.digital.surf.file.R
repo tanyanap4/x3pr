@@ -1,7 +1,25 @@
-#-------------------------------------------------------------------
-#Read in a Digital Surf file wrapper. Just specify the path to the
-#.sur file. Use fle.choose() to open a file chooser window 
-#-------------------------------------------------------------------
+#--------------------------------------------
+#' @title Read in a Digital Surf file wrapper. Just specify the path to the
+#' .sur file.
+#'
+#' @description Read in a Digital Surf file wrapper. Just specify the path to the
+#' .sur file.
+#' 
+#' @details Use fle.choose() to open a file chooser window 
+#'
+#' @param file.path
+#' 
+#' @return a matrix.
+#' 
+#' @references http://open-gps.sourceforge.net/
+#'
+#' @examples
+#' Coming soon.
+#'
+#' \dontrun{
+#'  
+#' }
+#--------------------------------------------
 read.digital.surf.file<-function(file.path) {
   
   ptr<-file(file.path, "rb") #Open up a connection to the .sur file

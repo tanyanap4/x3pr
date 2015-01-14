@@ -1,8 +1,26 @@
-#-------------------------------------------------------------------
-#Faster read in a Digital Surf file wrapper. Calls a faster C++ routine
-#via Rcpp. Just specify the path to the
-#.sur file. Use fle.choose() to open a file chooser window 
-#-------------------------------------------------------------------
+#--------------------------------------------
+#' @title Faster read in a Digital Surf file wrapper. Calls a faster C++ routine
+#' via Rcpp.
+#'
+#' @description Faster read in a Digital Surf file wrapper. Calls a faster C++ routine 
+#' via Rcpp.
+#' 
+#' @details Just specify the path to the
+#' .sur file. Use fle.choose() to open a file chooser window 
+#'
+#' @param file.path
+#' 
+#' @return an array.
+#' 
+#' @references http://open-gps.sourceforge.net/
+#'
+#' @examples
+#' Coming soon.
+#'
+#' \dontrun{
+#'  
+#' }
+#--------------------------------------------
 read.digital.surf.file2<-function(file.path) {
   
   surface.info<-readSurFile(file.path)

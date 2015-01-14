@@ -1,10 +1,30 @@
-#------------------------------------------------------
-#Convert a read in .sur file to x3p format
-#It's necessary at this point to open the .sur file so
-#that point's can be converted to floats (or doubles), 
-#which as far as I can tell is required by the 
-#NanoFicus x3p library
-#------------------------------------------------------
+#--------------------------------------------
+#' @title Convert a read in .sur file to x3p format
+#'
+#' @description Convert a read in .sur file to x3p format
+#' 
+#' @details It's necessary at this point to open the .sur file so
+#' that point's can be converted to floats (or doubles), 
+#' which as far as I can tell is required by the 
+#' NanoFicus x3p library
+#'
+#' @param surf.info
+#' @param extra.file.info.list
+#' @param comment.list
+#' @param fname
+#' @param move.to.directory
+#' 
+#' @return a x3p file. 
+#' 
+#' @references http://open-gps.sourceforge.net/
+#'
+#' @examples
+#' Coming soon.
+#'
+#' \dontrun{
+#'  
+#' }
+#--------------------------------------------
 sur2x3p.file <- function(surf.info, extra.file.info.list, comment.list, fname, move.to.directory){
   
   head.info <- surf.info[[1]]

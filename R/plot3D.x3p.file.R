@@ -1,6 +1,26 @@
-#---------------------------------------------------
-#3D plot  of a Digital Surf formated surface
-#---------------------------------------------------
+#--------------------------------------------
+#' @title 3D plot  of a Digital Surf formated surface
+#' @description 3D plot  of a Digital Surf formated surface
+#' 
+#' @details none. 
+#'
+#' @param x3p.surf.file.info 
+#' @param num.x.pts
+#' @param num.slices 
+#' @param aspect 
+#' @param plot.type
+#' 
+#' @return a plot.
+#' 
+#' @references http://open-gps.sourceforge.net/
+#'
+#' @examples
+#' Coming soon.
+#'
+#' \dontrun{
+#'  
+#' }
+#--------------------------------------------
 plot3D.x3p.file<-function(x3p.surf.file.info, num.x.pts=NULL, num.slices=NULL, aspect=c(1,0.3,0.2), plot.type="points") {
   
   head.info<-x3p.surf.file.info[[1]]
